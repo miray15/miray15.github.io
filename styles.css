@@ -67,6 +67,7 @@ h1 {
   color: white;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
 
 @keyframes shimmer {
@@ -109,7 +110,7 @@ h1 {
   list-style: none;
   margin: 0;
   padding: 0%;
-  margin-left: 50%;
+  margin-left: 40%;
   width: 18%;
   /* set the width of the navigation bar */
   background-color: #333;
