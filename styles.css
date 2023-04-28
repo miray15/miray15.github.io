@@ -1,0 +1,131 @@
+body {
+  background-color: #000;
+  background-image: url(https://media.tenor.com/0WtO3Sy6mtEAAAAC/aesthetic-stars.gif);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 50px 50px;
+  z-index: -1;
+  animation: sparkles 1s linear infinite;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+@keyframes sparkles {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+
+
+.intro {
+  text-decoration-style: wavy;
+  text-underline-position: under;
+  animation: wavy 2s linear infinite;
+  text-align: center;
+  color: yellow;
+}
+
+
+@keyframes wavy {
+  0% {
+    transform: skewX(0deg);
+  }
+
+  25% {
+    transform: skewX(10deg);
+  }
+
+  50% {
+    transform: skewX(-10deg);
+  }
+
+  75% {
+    transform: skewX(5deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/* Style the image */
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 6s ease-in-out forwards;
+  padding-left: 33%;
+  padding-right: 50%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  width: 30;
+  /* set the width of the container */
+  margin: 0;
+  /* center the container on the page */
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0%;
+  margin-left: 50%;
+  width: 18%;
+  /* set the width of the navigation bar */
+  background-color: #333;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  display: block;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #999;
+}
