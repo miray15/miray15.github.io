@@ -12,6 +12,10 @@ body {
   animation: sparkles 1s linear infinite;
 }
 
+a {
+  color: rgb(221, 98, 127) !important;
+}
+
 p {
   color: white;
   text-align: center;
@@ -35,6 +39,13 @@ p {
   animation: wavy 2s linear infinite;
   text-align: center;
   color: yellow;
+  font-size: 3rem;
+  background-image: url('https://img1.picmix.com/output/stamp/normal/6/3/8/4/254836_c277a.gif');
+  background-size: cover;
+  -webkit-background-clip: text;
+  */ background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
 }
 
 @keyframes wavy {
@@ -58,6 +69,8 @@ p {
     transform: skewX(0deg);
   }
 }
+
+
 
 h1 {
   color: white;
@@ -103,26 +116,22 @@ h1 {
 }
 
 .navbar {
-  background-color: #ff69b4;
-  /* Set the background color to pink */
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
-  /* Add a linear gradient for the glitter effect */
-  background-size: 400%;
-  animation: sparkle 3s ease infinite;
-  /* Add an animation to the background */
+
+  background-size: cover;
+  /* Make the background image cover the whole navbar */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+
 }
 
-.nav a {
-  color: #fff;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 18px;
-  text-align: center;
-}
+
 
 /* Add a keyframe animation for the sparkle effect */
 @keyframes sparkle {
@@ -141,4 +150,8 @@ h1 {
   100% {
     background-position: 0 100%;
   }
+}
+
+nav a {
+  color: yellow !important;
 }
