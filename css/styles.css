@@ -169,8 +169,8 @@ img {
 
 
 .image-container {
-  position: relative;
-  display: inline-block;
+  position: relative !important;
+  display: inline-block !important;
   text-align: center !important;
   margin: auto !important;
 }
