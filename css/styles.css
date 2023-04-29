@@ -17,7 +17,6 @@ p {
   text-align: center;
   font-style: normal;
   font-family: 'Times New Roman', Times, serif;
-
 }
 
 @keyframes sparkles {
@@ -30,8 +29,6 @@ p {
   }
 }
 
-
-
 .intro {
   text-decoration-style: wavy;
   text-underline-position: under;
@@ -39,7 +36,6 @@ p {
   text-align: center;
   color: yellow;
 }
-
 
 @keyframes wavy {
   0% {
@@ -81,23 +77,14 @@ h1 {
 }
 
 /* Style the image */
-
-.fade-in-image {
+.fade-in {
   opacity: 0;
   animation: fadeIn 6s ease-in-out forwards;
-  padding-left: 50%;
-  padding-right: 50%;
   display: block;
   margin: auto;
   max-width: 100%;
   height: auto;
 }
-
-.container {
-  max-width: 100%;
-  text-align: center;
-}
-
 
 @keyframes fadeIn {
   from {
