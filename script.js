@@ -1,4 +1,4 @@
-let likeCount = 0;
+let likeCount = 21;
 
 function likeImage() {
   likeCount++;
