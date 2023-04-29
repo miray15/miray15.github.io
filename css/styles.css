@@ -102,7 +102,7 @@ h1 {
   text-align: center;
 }
 
-.nav {
+/* .nav {
   list-style: none;
   margin: 0;
   padding: 0%;
@@ -110,20 +110,61 @@ h1 {
   margin-right: auto;
   width: auto;
   /* set the width of the navigation bar */
-  background-color: #333;
-}
+/* background-color: #333;
+} */
 
-.nav li {
+/* .nav li {
   display: inline-block;
-}
+} */
 
-.nav li a {
+/* .nav li a {
   display: block;
   padding: 5px 10px;
   color: #fff;
   text-decoration: none;
+} */
+
+/* .nav li a:hover {
+  background-color: #999; */
 }
 
-.nav li a:hover {
-  background-color: #999;
+*/ .navbar {
+  background-color: #ff69b4;
+  /* Set the background color to pink */
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  /* Add a linear gradient for the glitter effect */
+  background-size: 400%;
+  animation: sparkle 3s ease infinite;
+  /* Add an animation to the background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Add a keyframe animation for the sparkle effect */
+@keyframes sparkle {
+  0% {
+    background-position: 0 0;
+  }
+
+  40% {
+    background-position: 100% 0;
+  }
+
+  60% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0 100%;
+  }
 }
