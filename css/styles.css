@@ -82,12 +82,23 @@ h1 {
 
 /* Style the image */
 
-.fade-in {
+.fade-in-image {
   opacity: 0;
   animation: fadeIn 6s ease-in-out forwards;
-  padding-left: 33%;
+  padding-left: 50%;
   padding-right: 50%;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
+
+
+/* .container {
+  max-width: 100%;
+  text-align: center;
+}
+
 
 @keyframes fadeIn {
   from {
@@ -102,8 +113,8 @@ h1 {
 .container {
   width: 30;
   /* set the width of the container */
-  margin: 0;
-  /* center the container on the page */
+margin: 0;
+/* center the container on the page */
 }
 
 .nav {
