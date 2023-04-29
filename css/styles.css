@@ -107,6 +107,7 @@ h1 {
   margin: 0;
   padding: 0%;
   margin-left: auto;
+  margin-right: auto;
   width: auto;
   /* set the width of the navigation bar */
   background-color: #333;
