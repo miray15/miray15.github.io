@@ -1,16 +1,12 @@
-// let likeCount = 21;
+let likeCount = 351;
 
-// function likeImage() {
-//   likeCount++;
-//   document.querySelector('.like-count').textContent = likeCount;
-// }
+// Function to handle like button click
+function likeButtonClick() {
+  likeCount++;
+  updateLikeCount();
+}
 
-window.onload = function() {
-  let likeCount = 351; // initialize like count to 100
-  document.getElementById('like-count').textContent = likeCount;
-  
-  document.getElementById('like-button').addEventListener('click', function() {
-    likeCount++;
-    document.getElementById('like-count').textContent = likeCount;
-  });
+// Function to update the like count on the page
+function updateLikeCount() {
+  document.getElementById("like-count").textContent = likeCount;
 }
