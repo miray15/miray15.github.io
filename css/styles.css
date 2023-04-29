@@ -92,11 +92,12 @@ h1 {
 
 img {
   display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
-  opacity: 0;
-  animation: fadeIn 6s ease-in-out forwards;
+  !important margin: auto;
+  !important max-width: 100%;
+  !important height: auto;
+  !important opacity: 0;
+  !important animation: fadeIn 6s ease-in-out forwards;
+  !important
 }
 
 
