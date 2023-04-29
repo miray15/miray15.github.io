@@ -91,13 +91,12 @@ h1 {
 
 
 img {
-  display: block;
-  !important margin: auto;
-  !important max-width: 100%;
-  !important height: auto;
-  !important opacity: 0;
-  !important animation: fadeIn 6s ease-in-out forwards;
-  !important
+  display: block !important;
+  margin: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  opacity: 0 !important;
+  animation: fadeIn 6s ease-in-out forwards !important;
 }
 
 
