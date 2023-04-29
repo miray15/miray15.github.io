@@ -91,13 +91,14 @@ h1 {
 
 
 .fade-in {
-  opacity: 0;
-  animation: fadeIn 6s ease-in-out forwards;
   display: block;
   margin: auto;
   max-width: 100%;
   height: auto;
+  opacity: 0;
+  animation: fadeIn 6s ease-in-out forwards;
 }
+
 
 @keyframes fadeIn {
   from {
