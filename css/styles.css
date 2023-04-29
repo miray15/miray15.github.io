@@ -160,9 +160,7 @@ nav a {
 /* like button */
 
 img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  /*  display: block; */
   opacity: 0;
   animation: fadeIn 6s ease-in-out forwards;
 }
@@ -173,6 +171,8 @@ img {
   display: inline-block !important;
   text-align: center !important;
   margin: auto !important;
+  max-width: 100%;
+  height: auto;
 }
 
 .like-button {
