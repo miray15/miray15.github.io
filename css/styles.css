@@ -142,7 +142,6 @@ img {
   height: auto;
   opacity: 0;
   animation: fadeIn 6s ease-in-out forwards;
-
 }
 
 @keyframes fadeIn {
@@ -179,12 +178,9 @@ img {
   }
 }
 
-
 .image-container {
   position: relative;
-  display: inline-block;
-  text-align: center;
-  margin: auto;
+
 }
 
 .like-button {
