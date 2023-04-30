@@ -136,14 +136,20 @@ nav a {
 
 img {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   height: auto;
   opacity: 0;
   animation: fadeIn 6s ease-in-out forwards;
+
 }
 
 @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
   from {
     opacity: 0;
   }
@@ -153,10 +159,32 @@ img {
   }
 }
 
+.like-button,
+.like-count {
+  opacity: 0;
+  animation: fadeIn 6s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
 .image-container {
   position: relative;
   display: inline-block;
-  /* This is needed to center the container */
+  text-align: center;
+  margin: auto;
 }
 
 .like-button {
