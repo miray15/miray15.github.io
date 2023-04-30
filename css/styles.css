@@ -133,8 +133,6 @@ nav a {
 
 /* like button and image fade in*/
 
-
-
 img {
   display: block;
   margin-left: auto;
@@ -143,6 +141,7 @@ img {
   height: auto;
   opacity: 0;
   animation: fadeIn 6s ease-in-out forwards;
+
 }
 
 @keyframes fadeIn {
@@ -179,10 +178,10 @@ img {
   }
 }
 
-
-.like-container {
-  position: absolute;
-  width: 100%;
+.image-container {
+  position: relative;
+  width: auto;
+  border: 2px solid blue;
 }
 
 .like-button {
