@@ -111,11 +111,6 @@ img {
 }
 
 
-.container1 {
-  max-width: 100%;
-  text-align: center;
-}
-
 /* Nav bar */
 
 .navbar {
@@ -167,24 +162,9 @@ img {
 }
 
 
-/* .image-container {
-  position: relative !important;
-  display: inline-block !important;
-  text-align: center !important;
-  margin: auto !important;
-  max-width: 100%;
-  height: auto;
-} */
-
-
-
-.image-container img {}
-
-
-
-
-
-
+.image-container {
+  position: relative;
+}
 
 
 .like-button {
