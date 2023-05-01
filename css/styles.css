@@ -9,6 +9,12 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.donate_p {
+  text-align: center;
+  font-style: arial;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @keyframes sparkles {
   0% {
     background-position: 0 0;
