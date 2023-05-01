@@ -113,8 +113,18 @@ h1 {
   }
 }
 
-nav a {
+.home_navbar {
   color: yellow !important;
+}
+
+.donate_page {
+  color: black !important;
+}
+
+
+.center-text {
+  text-align: center !important;
+  align-items: center;
 }
 
 /* like button and image fade in*/
@@ -185,107 +195,3 @@ img {
   /* Position the count relative to the container width */
   /* The rest of the count styles... */
 }
-
-/* fundraising thermometer */
-
-/*Basic reset*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  background: #95b6d9;
-  /* Old browsers */
-  background: -moz-radial-gradient(45% 450px, ellipse cover, #95b6d9 0%, #1d405e 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, 45% 450px, 0px, center center, 100%, color-stop(0%, #95b6d9), color-stop(100%, #1d405e));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(45% 450px, ellipse cover, #95b6d9 0%, #1d405e 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(45% 450px, ellipse cover, #95b6d9 0%, #1d405e 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(45% 450px, ellipse cover, #95b6d9 0%, #1d405e 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at 45% 450px, #95b6d9 0%, #1d405e 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#95b6d9', endColorstr='#1d405e', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-  padding-top: 20px;
-  min-height: 100%;
-}
-
-/* Base thermometer style */
-#thermometer {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 42px;
-  /* So fill will only reach so far up themometer */
-  width: 146px;
-  height: 430px;
-  /* Size of background image */
-  background-image: url('//taylor-made.webs.com/files_online/base.png');
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-
-/* let's position the goal */
-#thermometer .goal {
-  position: absolute;
-  top: 0;
-  /* Place goal above themometer */
-  left: -20px;
-  /* Takes centre to be above the themometer */
-  width: 100%;
-  /* So text-align works to center text */
-  font-family: Trebuchet MS;
-  font-weight: bold;
-  color: #282828;
-  text-align: center;
-}
-
-
-/* Container for  fill and amount divs */
-#thermometer .progress {
-  position: relative;
-  height: 338px;
-  /* Number of pixels from 0% up to 100% on base thermometer */
-  left: 40px;
-  /* Moves fill on top of base thermometer */
-}
-
-
-/* This represents the fill of the thermometer (the mercury, if you will) */
-#thermometer .fill {
-  background-image: url('//taylor-made.webs.com/files_online/fill.png');
-  background-repeat: repeat-y;
-  width: 21px;
-  /* Size of bg image */
-  height: 0;
-  /* Start at 0, this will be animated */
-  position: absolute;
-  bottom: 0;
-  /* Keeps fill at bottom so we animate from bottom upward */
-}
-
-
-/* Current amount dispalyed */
-#thermometer .progress .amount {
-  font-family: Trebuchet MS;
-  font-weight: bold;
-  color: #086008;
-  background-image: url('//taylor-made.webs.com/files_online/arrow.png');
-  background-repeat: no-repeat;
-  background-position: 28px;
-  /* Move to right of thermometer */
-  height: 26px;
-  /* Size of background image */
-  position: absolute;
-  bottom: -13px;
-  /* 26/2=13. Get image to point at current level, this will be animated */
-  padding-left: 60px;
-  /* Keep text to right of arrow */
-}
-
-/* end of fundraising thermometer */
