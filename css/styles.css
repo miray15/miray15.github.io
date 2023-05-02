@@ -223,8 +223,9 @@ h1 {
 
 /* carousel */
 #race_carousel {
-  width: 60%;
-  height: 30%;
+  width: 50%;
+  height: 20%;
   margin-right: 50%;
   margin-left: 20%;
+  margin-top: 80px;
 }
