@@ -202,6 +202,8 @@ h1 {
   color: black;
 }
 
+
+
 .donate_h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -219,12 +221,6 @@ h1 {
   align-items: center;
 }
 
-.donate_h1,
-.donate_p {
-  order: 1;
-  text-align: center;
-}
-
 .thermometer {
   order: 0;
   margin-right: 20px;
@@ -239,4 +235,9 @@ h1 {
   margin-right: 50px;
   margin-left: 20%;
   margin-top: 80px;
+}
+
+.mystory {
+  text-align: center;
+  color: black;
 }
