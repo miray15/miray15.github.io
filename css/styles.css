@@ -222,8 +222,9 @@ h1 {
 /* my story */
 
 /* carousel */
-.carousel_container {
-  width: 20%;
-  height: 20%;
-  margin: 20%;
+#race_carousel {
+  width: 60%;
+  height: 30%;
+  margin-right: 50%;
+  margin-left: 20%;
 }
