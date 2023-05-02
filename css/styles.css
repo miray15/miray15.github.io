@@ -222,21 +222,8 @@ h1 {
 /* my story */
 
 /* carousel */
-
-#carouselImage1 {
-  width: 300px;
-}
-
-.carousel_item_2 {
-  width: 20px;
-}
-
-
-.carousel_item_3 {
-  width: 20px;
-}
-
-
-.carousel_item_4 {
-  width: 20px;
+.carousel_container {
+  width: 20%;
+  height: 20%;
+  margin: 20%;
 }
