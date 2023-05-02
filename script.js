@@ -1,3 +1,5 @@
+// like button and count
+
 let likeCount = 389;
 
 updateLikeCount();
@@ -14,3 +16,13 @@ function updateLikeCount() {
 }
 
 
+// carousel 
+
+$(document).ready(function(){
+  $('.carousel').slick({
+    dots: true,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000
+  });
+});
