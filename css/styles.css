@@ -95,7 +95,6 @@ h1 {
 
 .navbar_home a {
   padding: 0 20px;
-  /* Add 10px of padding to the left and right of each link */
 }
 
 .home_page_navbar {
@@ -215,17 +214,21 @@ h1 {
   float: left;
 }
 
-.container2 {
-  position: relative;
-  text-align: left;
+.container {
+  display: flex;
+  align-items: center;
 }
 
-/* thermometer */
+.donate_h1,
+.donate_p {
+  order: 1;
+  text-align: center;
+}
 
 .thermometer {
-  position: relative;
+  order: 0;
+  margin-right: 20px;
 }
-
 
 /* my story */
 
