@@ -223,12 +223,20 @@ h1 {
 
 /* carousel */
 
-.carousel {
-  width: 100%;
-  margin: 0 auto;
+#carouselImage1 {
+  width: 300px;
 }
 
-.carousel img {
-  width: 100%;
-  height: auto;
+.carousel_item_2 {
+  width: 20px;
+}
+
+
+.carousel_item_3 {
+  width: 20px;
+}
+
+
+.carousel_item_4 {
+  width: 20px;
 }
