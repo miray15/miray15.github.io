@@ -88,7 +88,7 @@ h1 {
 
 /* Nav bar */
 
-.navbar {
+.navbar_home {
 
   background-size: cover;
   /* Make the background image cover the whole navbar */
@@ -104,6 +104,9 @@ h1 {
 
 }
 
+.home_page_navbar {
+  color: yellow !important;
+}
 
 @keyframes sparkle {
   0% {
@@ -123,9 +126,6 @@ h1 {
   }
 }
 
-.home_navbar {
-  color: yellow !important;
-}
 
 .donate_page {
   color: black !important;
