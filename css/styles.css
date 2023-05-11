@@ -82,14 +82,13 @@ h1 {
 .navbar_home {
 
   background-size: cover;
-  /* Make the background image cover the whole navbar */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
   font-size: 15px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
 
 }
 
