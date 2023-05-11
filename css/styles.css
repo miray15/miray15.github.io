@@ -80,17 +80,28 @@ h1 {
 /* Nav bar */
 
 .navbar_home {
-
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30px;
   font-size: 15px;
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 10px;
+  /* Default margin for all screen sizes */
 
+  /* Media query for screens smaller than 768px */
+  @media (max-width: 768px) {
+    margin-left: 5px;
+    /* Adjust the left margin for smaller screens */
+  }
+
+  /* Media query for screens larger than 1200px */
+  @media (min-width: 1200px) {
+    margin-left: 15px;
+    /* Adjust the left margin for larger screens */
+  }
 }
+
 
 .navbar_home a {
   padding: 0 20px;
