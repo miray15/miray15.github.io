@@ -237,6 +237,11 @@ h1 {
   margin-top: 80px;
 }
 
+.race_carousel>.carousel-inner>.carousel-item>img {
+  width: 240px;
+  height: 160px;
+}
+
 .mystory {
   text-align: center;
   color: black;
