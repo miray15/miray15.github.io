@@ -231,7 +231,8 @@ html.donate {
 }
 
 .donate_link {
-  text-align: right;
+  text-align: center;
+  margin-left: 50%;
 }
 
 .container {
