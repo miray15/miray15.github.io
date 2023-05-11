@@ -242,6 +242,11 @@ h1 {
   height: 160px;
 }
 
+.carousel-size {
+  width: 25%;
+  height: 25%;
+}
+
 .mystory {
   text-align: center;
   color: black;
