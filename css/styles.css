@@ -232,9 +232,12 @@ h1 {
 #race_carousel {
   width: 50%;
   height: 30%;
-  margin-right: 50px;
-  margin-left: 20%;
+
   margin-top: 80px;
+}
+
+.container-carousel {
+  float: left;
 }
 
 /* .race_carousel>.carousel-inner>.carousel-item>img {
