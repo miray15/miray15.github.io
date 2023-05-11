@@ -230,8 +230,8 @@ h1 {
 
 /* carousel */
 #race_carousel {
-  width: 50%;
-  height: 30%;
+  width: auto;
+  height: auto;
 
   margin-top: 80px;
 }
