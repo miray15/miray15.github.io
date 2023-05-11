@@ -194,6 +194,10 @@ h1 {
 /* donate page */
 
 
+html.donate {
+  background-color: black;
+}
+
 .donate_p {
   text-align: center;
   font-style: arial;
