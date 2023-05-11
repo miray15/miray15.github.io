@@ -223,11 +223,15 @@ html.donate {
 }
 
 .donate_page {
-  color: black !important;
+  color: peru !important;
 }
 
 .container_home {
   float: left;
+}
+
+.donate_link {
+  text-align: right;
 }
 
 .container {
